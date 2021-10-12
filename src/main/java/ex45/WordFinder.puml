@@ -1,0 +1,10 @@
+@startuml
+class WordFinder {
+
+  + rewrite(String filename) throws IOException
+
+  + main(String[] args) throws IOException
+
+}
+
+@enduml

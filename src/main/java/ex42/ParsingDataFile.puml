@@ -1,0 +1,10 @@
+@startuml
+
+class ParsingDataFile {
+
+    + reformat() throws IOException
+    + main(String[] args) throws IOException
+
+}
+
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+class WordFrequencyFinder {
+
+  + wordcount(ArrayList<String> words)
+
+  + main(String[] args) throws IOException
+
+}
+
+@enduml

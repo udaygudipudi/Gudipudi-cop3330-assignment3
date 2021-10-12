@@ -1,0 +1,9 @@
+@startuml
+class Main {
+
+  + int productcheck(String name)
+
+  + main(String[] args)
+}
+
+@enduml

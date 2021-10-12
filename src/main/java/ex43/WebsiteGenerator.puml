@@ -1,0 +1,17 @@
+@startuml
+
+class WebsiteGenerator {
+
+  + String website(String sitename, String path)
+
+  + String html(String sitename, String author, String path) throws IOException
+
+  + String css(String sitename, String path)
+
+  + createfolders(String sitename, String author, String path, String javaans, String cssans) throws IOException
+
+  + main(String[] args) throws IOException
+
+}
+
+@enduml

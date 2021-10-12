@@ -1,0 +1,11 @@
+@startuml
+
+class NameSorter {
+
+  + sortnames (ArrayList<String> names)
+  + printnames (ArrayList<String> names) throws IOException
+  + main() throws IOException
+
+}
+
+@enduml
